@@ -1,5 +1,3 @@
-import {expect} from 'chai';
-import sinon from 'sinon';
 import request from 'request';
 import day5 from '../src/day5';
 

@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,8 @@
   },
   "dependencies": {
     "request": "^2.83.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }

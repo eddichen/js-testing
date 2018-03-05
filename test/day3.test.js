@@ -1,4 +1,3 @@
-import {expect} from 'chai';
 import day3 from '../src/day3';
 
 describe('day 3 tests', () => {
